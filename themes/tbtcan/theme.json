@@ -26,6 +26,10 @@
                     "color": "#adadada6"
                 }
             ]
+        }, 
+        "layout": {
+            "contentSize": "1000px", 
+            "wideSize": "1366px",
         }
     }
 }
