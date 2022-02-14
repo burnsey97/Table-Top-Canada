@@ -5,6 +5,7 @@
  * @package Table_Top_Canada
  */
 
+//  Created this page and a custom css for blcok editing 
 
 function tbtcan_enqueue_block_editor_assets() {
     wp_enqueue_script(
