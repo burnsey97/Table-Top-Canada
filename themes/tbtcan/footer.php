@@ -52,3 +52,5 @@ Thank you. TableTop Canada
 
 </body>
 </html>
+
+<!-- Footer created  -->
