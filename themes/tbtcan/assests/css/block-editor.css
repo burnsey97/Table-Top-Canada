@@ -7,16 +7,16 @@
     background-color: #3fa9fa;
     width: 100%;
     height: 200px;
-    color: white;
+    color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial-black;
 
 }
 
 .wp-block-quote.is-style-default p  {
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 40px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
@@ -150,13 +150,10 @@ h1 {
     float: none;
 }
  .single_add_to_cart_button, .button, .alt {
-    background-color: #3fa9fa;
-    height: 70px;
-    width: 130px;
-    color: aliceblue;
-    border: 10px black solid;
-    fill: #3fa9fa;
-    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    border: solid #3fa9fa 3px;
 }
 .main-page-coloumn {
     box-shadow: black 3px 3px 10px;
@@ -179,5 +176,130 @@ button.single_add_to_cart_button .button .alt {
     width: 20px;
     height: 20px;
     text-align: center;
-    
+    margin-bottom: 10px;
+    background-color: #3fa9fa;
+    color: white;
+
+}
+
+button {
+    background-color: #fff !important;
+    color: black !important;
+    border: solid #3fa9fa 3px !important;
+}
+
+
+.site-footer {
+    width: 100%;
+    background-color: hsla(0, 15%, 95%, 0.229);
+    height: 500px;
+    border-top: #3fa9fa 3px solid;
+}
+
+.tbtcanLink {
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.footerSect {
+    float: left;
+    width: 32%;
+    padding: 5px;
+    height: 100%;
+
+}
+
+.footPara {
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.socialIcons1 {
+    height: 30px;
+    width: 30px;
+}
+
+.footMidTitle {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial-black;
+}
+.socialList {
+    margin: 40px;
+    font-size: 20px;
+    color: #3fa9fa;
+    cursor: pointer;
+}
+
+.footMidTitle1 {
+    text-align: left;
+    font-size: 40px;
+    font-family: Arial-black;
+}
+
+.shippingInfo {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.site-header {
+    background-color: #3fa9fa;
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.site-branding {
+    float: left;
+}
+
+.main-navigation {
+    float: left;
+    list-style: none;
+}
+
+.menu-item {
+    list-style: none;
+    width: 120px;
+    height: 50px;
+    line-height: 40px;
+    color: black;
+    background-color: azure;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Staatliches', italic;
+    border: solid 2px yellow;
+}
+
+.posted_in {
+    width: 100%;
+    float: left;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 20px;
+}
+
+.woocommerce-loop-product__title {
+    color: black !important;
+}
+
+a { 
+    color: #3fa9fa;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    opacity: 0.8;
+    transition: .3s;
+}
+
+.space-around-icons-contact {
+    margin: 5px;
 }
