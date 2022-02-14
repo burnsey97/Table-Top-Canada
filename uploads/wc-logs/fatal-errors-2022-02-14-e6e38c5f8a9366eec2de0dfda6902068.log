@@ -56,3 +56,19 @@
 
 2022-02-14T07:35:20+00:00 CRITICAL syntax error, unexpected ''tbtcan_use_block_editor_for_p' (T_CONSTANT_ENCAPSED_STRING), expecting '(' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/inc/woocommerce.php on line 7
 
+2022-02-14T08:02:28+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/functions.php on line 163
+
+2022-02-14T08:02:29+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/functions.php on line 163
+
+2022-02-14T08:02:31+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/functions.php on line 163
+
+2022-02-14T08:02:32+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/functions.php on line 163
+
+2022-02-14T08:02:34+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/functions.php on line 163
+
+2022-02-14T08:02:34+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/functions.php on line 163
+
+2022-02-14T08:02:37+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/functions.php on line 163
+
+2022-02-14T08:02:37+00:00 CRITICAL syntax error, unexpected 'true' (T_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/functions.php on line 163
+

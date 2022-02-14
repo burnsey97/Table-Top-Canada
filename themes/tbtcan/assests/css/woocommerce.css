@@ -1,0 +1,20 @@
+.wp-block-post-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin: 5px;
+}
+
+.onsale {
+    background-attachment: #3fa9fa;
+    color: white;
+    font-size: 20px;
+}
+
+.single_add_to_cart_button {
+    background-color: #3fa9fa;
+}
+
+.single-product .product {
+    display: flex;
+}

@@ -129,7 +129,40 @@ add_action( 'widgets_init', 'tbtcan_widgets_init' );
  * Enqueue scripts and styles.
  */
 function tbtcan_scripts() {
-	wp_enqueue_style( 'tbtcan-style', get_stylesheet_uri(), array(), TBTCAN_VERSION );
+	wp_enqueue_style( 
+		'tbtcan-style', 
+		get_stylesheet_uri(),
+		array(),
+		TBTCAN_VERSION );
+
+		wp_enqueue_style( 
+			'woocommerce-style', 
+			get_stylesheet_uri() . '/assests/css/woocommerce.css',
+		);
+
+	wp_enqueue_style( 
+		'foundation-style', 
+		get_stylesheet_uri() . '/assests/css/vendor/foundation.min.css',
+		array(),
+		'6.7.4' 
+	);
+
+	wp_enqueue_style( 
+		'what-input-script', 
+		get_stylesheet_uri() . '/assests/js/vendor/what-input.js',
+		array('jquery'),
+		'5.2.10'
+	);
+
+
+
+	wp_enqueue_style( 
+		'foundation-script', 
+		get_stylesheet_uri() . '/assests/js/vendor/foundation.min.js',
+		array('jquery', 'what-input-script'),
+		'6.7.4',
+		true
+	);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
