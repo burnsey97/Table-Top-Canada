@@ -149,3 +149,8 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/**
+ * Block edito Additions
+ */
+require get_template_directory() . '/inc/block-editor.php';

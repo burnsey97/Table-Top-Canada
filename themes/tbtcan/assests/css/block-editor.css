@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.wp-block-quote.is-style-default {
+    background-color: #3fa9fa;
+    width: 100%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial-black;
+
+}
+
+.wp-block-quote.is-style-default p  {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+
+}
+
+.wp-block-quote.is-style-fancy-quote {
+    color: black;
+    
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    text-shadow: #3fa9fa 1px 1px 10px;
+    font-size: 25px;
+    font-family: 'Staatliches', italic;
+    letter-spacing: 4px; 
+}
+
+h2 {
+    font-family: Arial-black;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+h3 {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 200;
+    color: black;
+
+}
+
+h4 {
+    color: #3fa9fa;
+    font-size: 30px;
+
+}
+
+td {
+    font-size: 20px;
+    color: black;
+    border: solid black 1px;
+    text-align: center;
+}
+
+button.is-style-outline {
+    width: 280px;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border: solid 2px #3fa9fa;
+    border-radius: 0px;
+}
+
+.wp-block-button {
+    width: 280px;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border: solid 2px #3fa9fa;
+    border-radius: 0px;
+}
+
+button.is-style-outline {
+    width: 280px;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border: solid 2px #3fa9fa;
+    border-radius: 0px;
+}
+
+.wp-block-button__link {
+    width: 280px;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border: solid 2px #3fa9fa;
+    border-radius: 0px;
+    line-height: 0px;
+}
