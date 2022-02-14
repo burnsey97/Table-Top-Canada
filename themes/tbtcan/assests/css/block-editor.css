@@ -75,14 +75,6 @@ button.is-style-outline {
     border-radius: 0px;
 }
 
-.wp-block-button {
-    width: 280px;
-    height: 40px;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    border: solid 2px #3fa9fa;
-    border-radius: 0px;
-}
 
 button.is-style-outline {
     width: 280px;
@@ -94,7 +86,7 @@ button.is-style-outline {
 }
 
 .wp-block-button__link {
-    width: 280px;
+    width: 100%;
     height: 40px;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -103,18 +95,16 @@ button.is-style-outline {
     line-height: 0px;
 }
 
-.entry-content > *:not(.woocommerce) {
+.entry-content > * {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.entry-content > *.alignwide, 
 .alignwide {
     max-width: 1200px;
 }
 
-.entry-content > *.alignfull, 
 .alignfull {
     width: 100%;
 }
@@ -137,32 +127,18 @@ h1 {
     font-weight: 300;
 }
 
-.single-product, .onsale {
-    background-attachment: #3fa9fa;
-    color: black;
-    font-size: 20px;
-}
+
 
 .woocommerce-Price-amount, .amount {
     color: #3fa9fa;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Arial-black;
     text-decoration-color: white ;
 
 }
 
-.single-product .single_add_to_cart_button {
-    background-color: #3fa9fa;
-}
 
-.woocommerce-product-gallery__image {
-    padding: 20px;
-}
-
-.wp-block-post-title .single-product {
-    opacity: 0;
-}
 
 .single-product bdi {
     text-decoration: none;
@@ -175,9 +151,33 @@ h1 {
 }
  .single_add_to_cart_button, .button, .alt {
     background-color: #3fa9fa;
-    height: 30px;
-    width: 90px;
+    height: 70px;
+    width: 130px;
     color: aliceblue;
     border: 10px black solid;
     fill: #3fa9fa;
+    font-size: 40px;
+}
+.main-page-coloumn {
+    box-shadow: black 3px 3px 10px;
+    border-radius: 20px;
+
+}
+.margin-bottom-adjust {
+    margin-bottom: -10px;
+}
+
+.add_to_cart_button {
+    background-color: black;
+}
+
+button.single_add_to_cart_button .button .alt {
+    background-color: #3fa9fa;
+}
+
+.qty {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    
 }

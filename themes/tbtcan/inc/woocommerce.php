@@ -16,3 +16,5 @@ add_filter('use_block_editor_for_post_type', 'tbtcan_use_block_editor_for_post_t
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 1 );
 
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 6 );
+
+add_action( 'woocommerce_after_loop_price', 'woocommerce_breadcrumb', 20 );
