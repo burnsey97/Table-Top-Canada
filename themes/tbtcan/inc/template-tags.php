@@ -212,6 +212,8 @@ if ( ! function_exists( 'tbtcan_social_media_menu') ) {
 				<?php } ?> 
 
 			</ul>
+
+			<!-- social to be used anywhere  -->
 		<?php
 	}
 }
