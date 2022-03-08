@@ -205,39 +205,32 @@ bdi {
 
 .footerSect {
     float: left;
-    width: 32%;
+    width: 22%;
     padding: 5px;
     height: 100%;
-
+    background-color: #ffffff59;
+    line-height: 25px;
 }
 
 .footPara {
     width: 80%;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 35px;
 }
 
-.socialIcons1 {
-    height: 30px;
-    width: 30px;
-}
 
 .footMidTitle {
     text-align: center;
     font-size: 40px;
     font-family: Arial-black;
 }
-.socialList {
-    margin: 40px;
-    font-size: 20px;
-    color: #3fa9fa;
-    cursor: pointer;
-}
-
 .footMidTitle1 {
-    text-align: left;
+    text-align: center;
     font-size: 40px;
     font-family: Arial-black;
+    color: #3fa9fa;
+    text-shadow: white 5px 5px 10px;
+
 }
 
 .shippingInfo {
@@ -284,12 +277,10 @@ a {
 
 .menu-item {
     list-style: none;
-    width: 100px;
-    height: 30px;
     line-height: 20px;
     padding: 5px;
-    margin-left: 0px;
-    margin-right: 10px;
+    margin-left: -10px;
+    margin-right: 20px;
     color: black;
     float: left;
     text-decoration: none;
@@ -344,4 +335,37 @@ a {
     border-radius: 25px;
     background-color: #3fa9fa !important;
     font-size: 20px;
+}
+
+.socialIcon {
+    list-style: none;
+    float:left;
+    margin: 10px;
+    text-align: left;
+    align-content: flex-start;
+    min-height: 110px;
+}
+
+.footLine {
+    height: 3px;
+    width: 80%;
+    background-color: #3fa9fa;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.socialIcon:hover {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.footerSide1 {
+    margin-left: 10%;
+}
+.footerSide3 {
+    margin-right: 10%;
+}
+.footerSide2 {
+    margin-right: 5%;
+    margin-left: 5%;
 }

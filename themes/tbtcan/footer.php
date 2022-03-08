@@ -14,23 +14,19 @@
 	<footer id="colophon" class="site-footer">
 	<div id="primary" class="content-area"> 
 		<div class="site-info">
-			<div class="footerSect"> 
-				<h2> Proudly Canadian</h2> 
+			<div class="footerSect footerSide1"> 
+				<h2 class="footMidTitle1"> Proudly Canadian</h2> 
 				<h2> EST. 2022</h2>
 				<p class="footPara"> We are a local Canadian based company. Its safe to say we've played a few board games and just absolutely love them. And thats what were here to do. Share are love of board games with you!</p>
 			</div>
-			<div class="footerSect"> 
+			<div class="footerSect footerSide2"> 
 			<h2 class="footMidTitle1"> Get In Touch!</h2> 
-			<ul class="socialList"> 
-			<a> <li> Instagram: Instagram.com/TableTopCanada</li> </a>
-			<a> <li> Email: TableTopCanada@tabletopcanada.ca</li> </a>
-			<a> <li> Twitter: Twitter.com/TableTopCanada</li> </a>
-			<a> <li> Facebook: Facebook.com/TableTopCanada</li> </a>
-
-
-			</ul>	
+			<div class="footLine"></div>
+			<ul class="socialIcon"> 
+			<?php tbtcan_social_media_menu(); ?>
+			</ul>
 			</div>
-			<div class="footerSect"> 
+			<div class="footerSect footerSide3"> 
 			<h2 class="footMidTitle1"> Shipping Info</h2> 
 				<p class="shippingInfo">
 				Recieve Free shipping to Canada or The United States whenever you purchase $110 or more. 

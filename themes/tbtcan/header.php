@@ -28,23 +28,41 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php
-			the_custom_logo();
+			if (! empty (has_custom_logo() ) ) {
+				the_custom_logo();
+			} else {
 			$tbtcan_description = get_bloginfo( 'description', 'display' );
 			if ( $tbtcan_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $tbtcan_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
+				<p class="site-description"><?php echo $tbtcan_description; 
+				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+			<?php endif;
+			}
+			?>
+			
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<?php
+			if( has_nav_menu( 'menu-primary' ) ) {
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-primary',
 					'menu_id'        => 'primary-menu',
 				)
 			);
+			}
+			// if( has_nav_menu( 'menu-social' ) ) {
+			// 	wp_nav_menu(
+			// 		array(
+			// 			'theme_location' => 'menu-social',
+			// 		)
+			// 	);
+			// 	}
 			?>
+			
+
+
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 

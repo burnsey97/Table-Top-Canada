@@ -1,0 +1,54 @@
+2022-03-08T02:29:14+00:00 CRITICAL syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/inc/customizer.php on line 43
+
+2022-03-08T02:29:37+00:00 CRITICAL syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/inc/customizer.php on line 53
+
+2022-03-08T02:29:38+00:00 CRITICAL syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/inc/customizer.php on line 53
+
+2022-03-08T02:30:00+00:00 CRITICAL syntax error, unexpected end of file in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/header.php on line 65
+
+2022-03-08T02:30:45+00:00 CRITICAL syntax error, unexpected end of file in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/header.php on line 65
+
+2022-03-08T02:31:11+00:00 CRITICAL syntax error, unexpected end of file in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/header.php on line 65
+
+2022-03-08T03:01:24+00:00 CRITICAL Uncaught Error: Call to a member function get_setting() on string in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customize-control.php:234
+Stack trace:
+#0 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/customize/class-wp-customize-media-control.php(57): WP_Customize_Control->__construct('tbtcan_facebook...', Array, Array)
+#1 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/inc/customizer.php(56): WP_Customize_Media_Control->__construct('tbtcan_facebook...', Array)
+#2 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-hook.php(307): tbtcan_customize_register(Object(WP_Customize_Manager))
+#3 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customi in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customize-control.php on line 234
+
+2022-03-08T03:01:25+00:00 CRITICAL Uncaught Error: Call to a member function get_setting() on string in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customize-control.php:234
+Stack trace:
+#0 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/customize/class-wp-customize-media-control.php(57): WP_Customize_Control->__construct('tbtcan_facebook...', Array, Array)
+#1 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/inc/customizer.php(56): WP_Customize_Media_Control->__construct('tbtcan_facebook...', Array)
+#2 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-hook.php(307): tbtcan_customize_register(Object(WP_Customize_Manager))
+#3 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customi in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customize-control.php on line 234
+
+2022-03-08T03:07:48+00:00 CRITICAL Uncaught Error: Call to a member function get_setting() on string in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customize-control.php:234
+Stack trace:
+#0 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/customize/class-wp-customize-media-control.php(57): WP_Customize_Control->__construct('tbtcan_facebook...', Array, Array)
+#1 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/inc/customizer.php(65): WP_Customize_Media_Control->__construct('tbtcan_facebook...', Array)
+#2 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-hook.php(307): tbtcan_customize_register(Object(WP_Customize_Manager))
+#3 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customi in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customize-control.php on line 234
+
+2022-03-08T03:10:21+00:00 CRITICAL Uncaught Error: Call to a member function get_setting() on string in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customize-control.php:234
+Stack trace:
+#0 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/customize/class-wp-customize-media-control.php(57): WP_Customize_Control->__construct('tbtcan_facebook...', Array, Array)
+#1 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/inc/customizer.php(65): WP_Customize_Media_Control->__construct('tbtcan_facebook...', Array)
+#2 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-hook.php(307): tbtcan_customize_register(Object(WP_Customize_Manager))
+#3 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customi in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-includes/class-wp-customize-control.php on line 234
+
+2022-03-08T03:33:11+00:00 CRITICAL syntax error, unexpected '{' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/footer.php on line 25
+
+2022-03-08T03:33:12+00:00 CRITICAL syntax error, unexpected '{' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/footer.php on line 25
+
+2022-03-08T03:33:12+00:00 CRITICAL syntax error, unexpected '{' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/footer.php on line 25
+

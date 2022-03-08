@@ -50,6 +50,10 @@ function tbtcan_setup() {
 	register_nav_menus(
 		array(
 			'menu-primary' => esc_html__( 'Primary', 'tbtcan' ),
+			'menu-secondary' => esc_html__( 'Secondary', 'tbtcan' ),
+			'menu-footer' => esc_html__( 'Footer', 'tbtcan' ),
+			'menu-social' => esc_html__( 'Social', 'tbtcan' ),
+
 		)
 	);
 

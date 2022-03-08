@@ -163,3 +163,55 @@ if ( ! function_exists( 'wp_body_open' ) ) :
 		do_action( 'wp_body_open' );
 	}
 endif;
+
+if ( ! function_exists( 'tbtcan_social_media_menu') ) {
+	function tbtcan_social_media_menu() {
+		?> 
+			<ul class="socialList social-media-menu"> 
+			<?php if ( ! empty( get_theme_mod( 'tbtcan_facebook_url' ) ) && ! empty( get_theme_mod( 'tbtcan_facebook_title' ) ) ) { ?>
+			
+				<li class="socialIcon"> 
+					<a href="<?php echo esc_url( get_theme_mod( 'tbtcan_facebook_url' ) ); ?>" aria-label="<?php echo ! empty( get_theme_mod( 'tbtcan_facebook_icon') ) ? get_theme_mod( 'tbtcan_facebook_title' ) : '';  ?>">
+					<?php
+					if ( ! empty( get_theme_mod( 'tbtcan_facebook_icon') ) ) {
+						echo wp_get_attachment_image( get_theme_mod( 'tbtcan_facebook_icon' ), array( '110', '110') );
+					} else {
+						echo get_theme_mod( 'tbtcan_facebook_title' );
+					}
+					?>
+					</a>
+				</li>
+				<?php } ?>
+				<?php if ( ! empty( get_theme_mod( 'tbtcan_twitter_url' ) ) && ! empty( get_theme_mod( 'tbtcan_twitter_title' ) ) ) { ?>
+			
+			<li class="socialIcon"> 
+				<a href="<?php echo esc_url( get_theme_mod( 'tbtcan_twitter_url' ) ); ?>" aria-label="<?php echo ! empty( get_theme_mod( 'tbtcan_twitter_icon') ) ? get_theme_mod( 'tbtcan_twitter_title' ) : '';  ?>">
+				<?php
+				if ( ! empty( get_theme_mod( 'tbtcan_twitter_icon') ) ) {
+					echo wp_get_attachment_image( get_theme_mod( 'tbtcan_twitter_icon' ), array( '110', '110') );
+				} else {
+					echo get_theme_mod( 'tbtcan_twitter_title' );
+				}
+				?>
+				</a>
+			</li>
+			<?php } ?>
+			<?php if ( ! empty( get_theme_mod( 'tbtcan_instagram_url' ) ) && ! empty( get_theme_mod( 'tbtcan_instagram_title' ) ) ) { ?>
+			
+				<li class="socialIcon"> 
+					<a href="<?php echo esc_url( get_theme_mod( 'tbtcan_instagram_url' ) ); ?>" aria-label="<?php echo ! empty( get_theme_mod( 'tbtcan_instagram_icon') ) ? get_theme_mod( 'tbtcan_instagram_title' ) : '';  ?>">
+					<?php
+					if ( ! empty( get_theme_mod( 'tbtcan_instagram_icon') ) ) {
+						echo wp_get_attachment_image( get_theme_mod( 'tbtcan_instagram_icon' ), array( '110', '110') );
+					} else {
+						echo get_theme_mod( 'tbtcan_instagram_title' );
+					}
+					?>
+					</a>
+				</li>
+				<?php } ?> 
+
+			</ul>
+		<?php
+	}
+}
