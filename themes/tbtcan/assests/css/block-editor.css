@@ -415,10 +415,3 @@ td {
     font-size: 20px;
     color: black;
 }
-
-.wp-post-image {
-    width: 60% !important;
-    height: 700px !important;
-    margin-left: 20%;
-    margin-right: 20%;
-}
