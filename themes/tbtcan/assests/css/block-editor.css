@@ -382,3 +382,10 @@ a {
     width: 200px !important;
     height: 200px !important;
 }
+
+.wp-post-image {
+    width: 60% !important;
+    height: 700px !important;
+    margin-left: 20%;
+    margin-right: 20%;
+}
