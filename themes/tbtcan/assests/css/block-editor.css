@@ -404,10 +404,17 @@ td {
     border-left:#9a9c9c;
     border-right: #9a9c9c;
     text-align: left !important;
+    border-bottom: #9a9c9c;
 }
 
 
-
+.input-text {
+    height: 100% !important;
+    border: solid .5px #3fa9fa;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
 
 .wp-post-image {
     width: 60% !important;
