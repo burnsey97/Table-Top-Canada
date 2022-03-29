@@ -198,3 +198,4 @@ require get_template_directory() . '/inc/block-editor.php';
 
 /**Require Woocommerce file */
 require get_template_directory() . '/inc/woocommerce.php';
+
