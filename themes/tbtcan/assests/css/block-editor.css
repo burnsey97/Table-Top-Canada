@@ -428,8 +428,11 @@ td {
     max-height: 75px;
 }
 
-/* Ninja Forms Editing */
-
+/** Ninja Forms Editing */
+.nf-element {
+    cursor: pointer;
+}
+/* End of Ninja forms editing */
 
 
 
