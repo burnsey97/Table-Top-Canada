@@ -113,3 +113,27 @@ Stack trace:
 
 2022-03-29T09:13:58+00:00 CRITICAL syntax error, unexpected '' '' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/footer.php on line 43
 
+2022-03-29T11:42:44+00:00 CRITICAL syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 28
+
+2022-03-29T11:43:03+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 90
+
+2022-03-29T11:43:18+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 74
+
+2022-03-29T11:43:49+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 74
+
+2022-03-29T11:45:16+00:00 CRITICAL syntax error, unexpected end of file in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 67
+
+2022-03-29T11:45:32+00:00 CRITICAL syntax error, unexpected end of file in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 67
+
+2022-03-29T11:48:18+00:00 CRITICAL syntax error, unexpected 'the_post_thumbnail' (T_STRING) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 30
+
+2022-03-29T11:48:24+00:00 CRITICAL syntax error, unexpected 'the_post_thumbnail' (T_STRING) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 30
+
+2022-03-29T11:48:26+00:00 CRITICAL syntax error, unexpected 'the_post_thumbnail' (T_STRING) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 30
+
+2022-03-29T11:48:29+00:00 CRITICAL syntax error, unexpected 'the_post_thumbnail' (T_STRING) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 30
+
+2022-03-29T11:48:38+00:00 CRITICAL syntax error, unexpected 'the_title' (T_STRING) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 31
+
+2022-03-29T11:48:44+00:00 CRITICAL syntax error, unexpected 'get_template_part' (T_STRING) in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/archive-tbtcan_card_games.php on line 39
+
