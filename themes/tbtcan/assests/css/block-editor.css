@@ -505,3 +505,9 @@ td {
 
 /* ! Mobile Size Woocommerce Css */
 /* Product layout editing */
+@media(max-width: 614px) {
+    .product, .columns-3 li {
+        width: 45% !important; 
+        margin: 5px !important;
+    }
+}
