@@ -57,7 +57,7 @@
 </div>
 
 
-
+<!-- Site Sectioned Footer Design -->
 	<div id="primary" class="content-area"> 
 		<div class="site-info">
 			<div class="footerSect footerSide1"> 
