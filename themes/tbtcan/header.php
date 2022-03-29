@@ -24,7 +24,7 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 
-
+<!-- !UNiversal site heading creation -->
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php
@@ -40,9 +40,11 @@
 			}
 			?>
 			
-		</div><!-- .site-branding -->
+		</div>
+		<!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
+			<!-- Custom Menu -->
 			<?php
 			if( has_nav_menu( 'menu-primary' ) ) {
 			wp_nav_menu(
@@ -52,13 +54,6 @@
 				)
 			);
 			}
-			// if( has_nav_menu( 'menu-social' ) ) {
-			// 	wp_nav_menu(
-			// 		array(
-			// 			'theme_location' => 'menu-social',
-			// 		)
-			// 	);
-			// 	}
 			?>
 			
 
