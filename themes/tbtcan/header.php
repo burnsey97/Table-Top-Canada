@@ -45,6 +45,7 @@
 
 		<nav id="site-navigation" class="main-navigation">
 			<!-- Custom Menu -->
+			<!-- Conditional Tag to ensure this menu only appears if it has a nav menu -->
 			<?php
 			if( has_nav_menu( 'menu-primary' ) ) {
 			wp_nav_menu(
