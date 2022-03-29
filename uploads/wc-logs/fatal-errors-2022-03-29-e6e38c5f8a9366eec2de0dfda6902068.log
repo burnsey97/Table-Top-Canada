@@ -1,0 +1,14 @@
+2022-03-29T07:19:40+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting ';' or ',' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/template-parts/content-tbtcan_card_games.php on line 20
+
+2022-03-29T07:19:41+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting ';' or ',' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/template-parts/content-tbtcan_card_games.php on line 20
+
+2022-03-29T07:20:02+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting ';' or ',' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/template-parts/content-tbtcan_card_games.php on line 20
+
+2022-03-29T07:21:23+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting ';' or ',' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/template-parts/content-tbtcan_card_games.php on line 20
+
+2022-03-29T07:23:56+00:00 CRITICAL syntax error, unexpected end of file in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/template-parts/content-tbtcan_card_games.php on line 82
+
+2022-03-29T07:27:30+00:00 CRITICAL syntax error, unexpected end of file in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/template-parts/content-tbtcan_card_games.php on line 74
+
+2022-03-29T07:28:16+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in /Users/KingZach/Local Sites/tabletopcanada/app/public/wp-content/themes/tbtcan/template-parts/content-tbtcan_card_games.php on line 22
+

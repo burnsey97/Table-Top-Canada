@@ -39,9 +39,6 @@ if (is_page_template( 'templates/blog-template.php' )  ) {
 }
 }
 ?>
-
-
-
         </div>
     </div>
 </main>

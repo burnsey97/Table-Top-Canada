@@ -146,7 +146,7 @@ function tbtcan_scripts() {
 
 	wp_enqueue_style( 
 		'foundation-style', 
-		get_stylesheet_uri() . '/assests/css/vendor/foundation.min.css',
+		get_stylesheet_uri() . '/assests/css/foundation.min.css',
 		array(),
 		'6.7.4' 
 	);
@@ -199,5 +199,5 @@ require get_template_directory() . '/inc/block-editor.php';
 /**Require Woocommerce file */
 require get_template_directory() . '/inc/woocommerce.php';
 
-/**Require Woocommerce file */
+/**Require Blog file */
 require get_template_directory() . '/inc/post-types.php';

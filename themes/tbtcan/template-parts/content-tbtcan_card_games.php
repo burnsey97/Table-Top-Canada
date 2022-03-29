@@ -11,8 +11,20 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+	<div class="grid-container">
+		<div class="grid-x grid-margin-x"> 
+			<div class="large-12 medium-12 small-12"> 
+
 		<?php
-		if ( is_singular() ) :
+
+if ( ! is_singular( 'tbtcan_card_games' ) ) {
+	echo "";
+} else {
+	echo "";
+}
+
+
+		if ( ! is_singular( 'product' ) ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
@@ -29,8 +41,6 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="grid-container"> 
-	<div class="grid-x grid-margin-x"> 
 	<?php tbtcan_post_thumbnail(); ?>
 
 	<div class="entry-content">
@@ -57,9 +67,10 @@
 			)
 		);
 		?>
-	</div><!-- .entry-content -->
+		</div><!-- .entry-content -->
 	</div>
-	</div>
+</div>
+
 	<footer class="entry-footer">
 		<?php tbtcan_entry_footer(); ?>
 	</footer><!-- .entry-footer -->

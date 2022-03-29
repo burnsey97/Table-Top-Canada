@@ -11,7 +11,7 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-		<div class="grid-container  content-holder"> 
+		<div class="grid-container"> 
 			<div class="grid-x grid-margin-x grid-y grid-padding-y"> 
 
 		<?php if ( have_posts() ) : ?>

@@ -5,12 +5,12 @@
  * @package Table_Top_Canada
  */
 
-function wpdocs_kantbtrue_init() {
+function tbtcan_post_types() {
     $labels = array(
-        'name'                  => _x( 'Card Games', 'Post type general name', 'tbtcan' ),
-        'singular_name'         => _x( 'Card Game', 'Post type singular name', 'tbtcan' ),
-        'menu_name'             => _x( 'Card Games Blog', 'Admin Menu text', 'tbtcan' ),
-        'name_admin_bar'        => _x( 'Card Game', 'Add New on Toolbar', 'tbtcan' ),
+        'name'                  => _x( 'CardGames', 'Post type general name', 'tbtcan' ),
+        'singular_name'         => _x( 'CardGame', 'Post type singular name', 'tbtcan' ),
+        'menu_name'             => _x( 'CardGames Blog', 'Admin Menu text', 'tbtcan' ),
+        'name_admin_bar'        => _x( 'CardGame', 'Add New on Toolbar', 'tbtcan' ),
         'add_new'               => __( 'Add New', 'tbtcan' ),
         'add_new_item'          => __( 'Add New recipe', 'tbtcan' ),
         'new_item'              => __( 'New recipe', 'tbtcan' ),
@@ -40,9 +40,9 @@ function wpdocs_kantbtrue_init() {
         'show_ui'            => true,
         'show_in_menu'       => true,
         'query_var'          => true,
-        'rewrite'            => array( 'slug' => 'tbtcan' ),
+        'rewrite'            => array( 'slug' => 'card_games' ),
         'capability_type'    => 'post',
-        'has_archive'        => true,
+        'has_archive'        => 'card_games', 
         'hierarchical'       => false,
         'menu_position'      => 20,
         'supports'           => array( 'title', 'editor', 'author', 'thumbnail' ),
