@@ -15,6 +15,7 @@
 		<div class="footerBlog"> 
 		<h1 class="blogCardTitle"> See Some of Our Newest Blog Posts! </h1>
 		<br> <br>
+		<!-- Custom Footer Blog  -->
 	<?php
 	$tbtcan_card_games_args = array (
 		'post_type' => array( 'tbtcan_card_games' ), 
@@ -25,6 +26,7 @@
 
 	$tbtcan_card_games_query = new WP_Query( $tbtcan_card_games_args);
 
+	// Footer Blog - Grabbing elements and holding them within a card. Looping through our posts to grab and display 3 items. Displaying the title, excerpt and featured image
 	if($tbtcan_card_games_query->have_posts() ) {
 		?> 
 		<div class="grid-container contentBlogFooterHolder"> 
