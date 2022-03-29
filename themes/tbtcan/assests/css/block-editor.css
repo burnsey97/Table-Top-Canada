@@ -4,6 +4,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+/* Site sizing and alignment  */
+.entry-content > * {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignwide {
+    max-width: 1600px;
+}
+
+.alignfull {
+    width: 100%;
+}
+
+/* end of site sizing and allignment */
+
+/* !Heading Css */
+.menu-item {
+    list-style: none;
+    line-height: 20px;
+    padding: 5px;
+    margin-left: -10px;
+    margin-right: 20px;
+    color: black;
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial-black;
+    font-style: italic;
+
+}
+
+.menu-item:hover {
+    opacity: 0.8;
+    transition: .3s;
+}
+.site-header {
+    background-color: #3fa9fa;
+    width: 100%;
+    height: 150px;
+}
+.site-branding {
+    float: left;
+}
+
+.main-navigation {
+    float: left;
+    list-style: none;
+    width: 100%;
+    height: 60px;
+    margin-top: -10px;
+    background-color: #d0d1d1;
+    border-bottom: solid 2px black;
+}
+/** End of menu items and heading  */
+
+/* ! Default Block Stylization */
 
 .wp-block-quote.is-style-default {
     background-color: #3fa9fa;
@@ -88,20 +148,6 @@ button.is-style-outline {
     line-height: 0px;
 }
 
-.entry-content > * {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.alignwide {
-    max-width: 1600px;
-}
-
-.alignfull {
-    width: 100%;
-}
-
 h1 {
     font-family: 'Lato', sans-serif;
     font-size: 25px;
@@ -119,7 +165,68 @@ h1 {
     margin-right: auto;
     font-weight: 300;
 }
+/* * End of Default Code */
 
+
+
+.main-page-coloumn {
+    box-shadow: black 3px 3px 10px;
+    border-radius: 20px;
+}
+.margin-bottom-adjust {
+    margin-bottom: -10px;
+}
+
+
+.site-footer {
+    width: 100%;
+    background-color: hsla(0, 15%, 95%, 0.229);
+    height: 500px;
+    border-top: #3fa9fa 3px solid;
+}
+
+.tbtcanLink {
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* WooCommerce Product Css Design */
+.shippingInfo {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.posted_in {
+    width: 100%;
+    float: left;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 20px;
+}
+
+.woocommerce-loop-product__title {
+    color: black !important;
+}
+
+.qty {
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    float: left;
+    margin-right: 30px;
+}
 
 
 .woocommerce-Price-amount, .amount {
@@ -173,132 +280,6 @@ bdi {
  
 
 }
-.main-page-coloumn {
-    box-shadow: black 3px 3px 10px;
-    border-radius: 20px;
-}
-.margin-bottom-adjust {
-    margin-bottom: -10px;
-}
-.qty {
-    width: 35px;
-    height: 30px;
-    text-align: center;
-    margin-bottom: 10px;
-    color: black;
-    float: left;
-    margin-right: 30px;
-}
-
-
-.site-footer {
-    width: 100%;
-    background-color: hsla(0, 15%, 95%, 0.229);
-    height: 500px;
-    border-top: #3fa9fa 3px solid;
-}
-
-.tbtcanLink {
-    color: black;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-.footerSect {
-    float: left;
-    width: 22%;
-    padding: 5px;
-    height: 100%;
-    background-color: #ffffff59;
-    line-height: 25px;
-}
-
-.footPara {
-    width: 80%;
-    font-size: 20px;
-    line-height: 35px;
-}
-
-
-.footMidTitle {
-    text-align: center;
-    font-size: 40px;
-    font-family: Arial-black;
-}
-.footMidTitle1 {
-    text-align: center;
-    font-size: 40px;
-    font-family: Arial-black;
-    color: #3fa9fa;
-    text-shadow: white 5px 5px 10px;
-
-}
-
-.shippingInfo {
-    line-height: 30px;
-    font-size: 20px;
-}
-
-.site-header {
-    background-color: #3fa9fa;
-    width: 100%;
-    height: 150px;
-}
-.site-branding {
-    float: left;
-}
-
-.main-navigation {
-    float: left;
-    list-style: none;
-    width: 100%;
-    height: 60px;
-    margin-top: -10px;
-    background-color: #d0d1d1;
-    border-bottom: solid 2px black;
-}
-
-
-
-.posted_in {
-    width: 100%;
-    float: left;
-    font-family: 'Calligraffitti', cursive;
-    font-size: 20px;
-}
-
-.woocommerce-loop-product__title {
-    color: black !important;
-}
-
-a { 
-    text-decoration: none;
-    color: black;
-}
-
-.menu-item {
-    list-style: none;
-    line-height: 20px;
-    padding: 5px;
-    margin-left: -10px;
-    margin-right: 20px;
-    color: black;
-    float: left;
-    text-decoration: none;
-    cursor: pointer;
-    text-align: center;
-    font-size: 15px;
-    font-family: Arial-black;
-    font-style: italic;
-
-}
-
-
-.menu-item:hover {
-    opacity: 0.8;
-    transition: .3s;
-}
 
 .space-around-icons-contact {
     margin: 5px;
@@ -339,40 +320,9 @@ a {
     font-size: 20px;
 }
 
-.socialIcon {
-    list-style: none;
-    float:left;
-    margin: 10px;
-    text-align: left;
-    align-content: flex-start;
-    min-height: 110px;
-}
+/* end of product editing */
 
-.footLine {
-    height: 3px;
-    width: 80%;
-    background-color: #3fa9fa;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.socialIcon:hover {
-    background-color: white;
-    opacity: 0.8;
-}
-
-.footerSide1 {
-    margin-left: 10%;
-}
-.footerSide3 {
-    margin-right: 10%;
-}
-.footerSide2 {
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-/* Footer Stylized */
+/* * Cart and checkout css */
 
 #coupon_code {
     width: 500px !important;
@@ -417,7 +367,11 @@ td {
     font-size: 20px;
     color: black;
 }
+/* end of cart and checkout css */
 
+
+
+/* !Footer Blog Stylization */
 /* Holding content to size */
 .footerBlog {
     display: flex;
@@ -426,8 +380,6 @@ td {
     grid-template-columns: auto;
     width: 100%;
 }
-
-
 
 .cardTextSection p {
     font-size: 25px;
@@ -470,3 +422,69 @@ td {
     margin: 15px;
     color: #ffffff;
 }
+
+/* footerSectionStylization */
+.footerSect {
+    float: left;
+    width: 22%;
+    padding: 5px;
+    height: 100%;
+    background-color: #ffffff59;
+    line-height: 25px;
+}
+
+.footPara {
+    width: 80%;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+.footMidTitle {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial-black;
+}
+.footMidTitle1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial-black;
+    color: #3fa9fa;
+    text-shadow: white 5px 5px 10px;
+
+}
+
+.socialIcon {
+    list-style: none;
+    float:left;
+    margin: 10px;
+    text-align: left;
+    align-content: flex-start;
+    min-height: 110px;
+}
+
+.footLine {
+    height: 3px;
+    width: 80%;
+    background-color: #3fa9fa;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.socialIcon:hover {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.footerSide1 {
+    margin-left: 10%;
+}
+.footerSide3 {
+    margin-right: 10%;
+}
+.footerSide2 {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* Footer Stylized */
