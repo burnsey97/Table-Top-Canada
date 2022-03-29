@@ -454,12 +454,12 @@ td {
 
 
 .footMidTitle {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     font-family: Arial-black;
 }
 .footMidTitle1 {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     font-family: Arial-black;
     color: #3fa9fa;
