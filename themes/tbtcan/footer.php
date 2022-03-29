@@ -35,11 +35,12 @@
 			<div class="cell large-4 medium-4 small-12"> 
 				<div class="card"> 
 				<?php
+			
 			the_post_thumbnail();
 			?>
 			<div class="cardTextSection">
 			<?php
-			the_title('<h3 class="blogPostTitle">', '</h3>');
+			the_title('<h3 class="blogPostTitle"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>');
 			the_excerpt();
 			?>
 			</div>
