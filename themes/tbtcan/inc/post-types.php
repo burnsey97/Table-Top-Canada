@@ -1,4 +1,10 @@
 <?php
+/**
+ * Functions which enhance the theme by creating custom post types
+ *
+ * @package Table_Top_Canada
+ */
+
 function wpdocs_kantbtrue_init() {
     $labels = array(
         'name'                  => _x( 'Card Games', 'Post type general name', 'tbtcan' ),
