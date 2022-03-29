@@ -20,21 +20,37 @@
 		'post_type' => array( 'tbtcan_card_games' ), 
 		'post_status' => 'publish', 
 		'posts_per_page' => 3,
+		'orderby' => 'rand',
 	);
 
 	$tbtcan_card_games_query = new WP_Query( $tbtcan_card_games_args);
 
 	if($tbtcan_card_games_query->have_posts() ) {
+		?> 
+		<div class="grid-container contentBlogFooterHolder"> 
+		<?php
 		while ( $tbtcan_card_games_query->have_posts() ) {
 			$tbtcan_card_games_query->the_post();
+			?>
+			<div class="cell large-4 medium-4 small-12"> 
+				<div class="card"> 
+				<?php
 			the_post_thumbnail();
+			?>
+			<div class="cardTextSection">
+			<?php
 			the_title('<h3 class="blogPostTitle">', '</h3>');
 			the_excerpt();
+			?>
+			</div>
+			</div>
+			</div>
+			<?php
 		}
 		wp_reset_postdata();
-	}
-
-	?>
+		?>
+		</div>
+	<?php } ?>
 </div>
 
 

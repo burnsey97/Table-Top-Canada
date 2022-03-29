@@ -11,8 +11,6 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-		<div class="grid-container  content-holder"> 
-			<div class="grid-x grid-margin-x grid-y grid-padding-y"> 
 
 		<?php if ( have_posts() ) : ?>
 
@@ -23,6 +21,7 @@ get_header();
 				?>
 			</header><!-- .page-header -->
 
+			<div class="postHolder"> 
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
@@ -45,8 +44,6 @@ get_header();
 
 		endif;
 		?>
-			</div>
-		</div>
 	</main><!-- #main -->
 
 <?php
